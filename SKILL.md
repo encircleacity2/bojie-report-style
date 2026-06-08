@@ -1,7 +1,7 @@
 ---
 name: bojie-report-style
-version: 1.0.0
-description: "Bojie 本人的行业方案 / 专项汇报写作风格指南（别名「白皮笔法」），中英双语通用。当为 Bojie 撰写或改写面向管理层/leader 的行业方案、赛道汇报、专项总结、市场空间分析、客户/标杆进展、解决方案文档（多为飞书 Docx，中文或英文皆可）时使用，确保文风是分析师口吻、去 AI 味、判断敢下、测算摊开。Personal report-writing style guide for Bojie — works for BOTH Chinese and English industry/strategy/leadership reports. 触发词：写汇报、行业方案、赛道总结、专项汇报、市场空间、给管理层的report、帮我把这份写得不那么 AI 味、按我的风格写、write the English report in my style、de-AI-flavor this。"
+version: 1.1.0
+description: "Bojie-style industry / strategy / leadership report writing guide, bilingual Chinese and English. Use when drafting or rewriting market sizing, sector reports, strategy memos, customer progress, solution docs, management reports, or when asked to match Bojie's style / reduce AI flavor / de-AI-flavor writing. Enforces analyst tone, explicit assumptions, cited numbers, direct judgment, sparse neutral formatting, and sentence-level de-AI rewrites. 触发词：写汇报、行业方案、赛道总结、专项汇报、市场空间、管理层 report、按我的风格写、去 AI 味。"
 ---
 
 # 白皮笔法 — Bojie 的行业汇报写作风格
@@ -32,6 +32,9 @@ description: "Bojie 本人的行业方案 / 专项汇报写作风格指南（别
 - ❌ **"一句话结论 / 一句话收尾 / 向管理层的三个 ask"** 这类宣讲式包装：去掉，落到清单或下一步。
 - ❌ **替读者把话说满**：少用"显著""极大""完美覆盖"。该 hedge 就 hedge（"6 月激进点看一下""可想象空间按 10% 估"）。
 - ❌ **笼统说"全家桶/一站式"**：必须点名每个模型干什么（见 §五）。
+- ❌ **抽象价值词堆叠**："赋能""助力""打造""构建""释放价值""形成闭环""全链路覆盖"——默认删，除非后面紧跟具体对象、数字、流程边界。
+- ❌ **万能背景段**："随着行业快速发展 / 在数字化浪潮下 / 面对复杂市场环境"——直接切到事实、客户动作、预算变化或产品卡点。
+- ❌ **过度完整的自洽感**：每段都像标准答案、没有口径/边界/待确认项，也会像 AI。保留真实研究过程中的假设、缺口和下一步验证。
 
 ---
 
@@ -44,6 +47,47 @@ description: "Bojie 本人的行业方案 / 专项汇报写作风格指南（别
 4. **中英自然混用**，不强行翻译：DRR、TAM、MoM、variant、DCO、FDE、R2V、pack shot、GMV、CTR、LTV、SKU、ISV、GEO/SEO 直接用。
 5. **引号包装有信息量的记忆点**（不是口号）：「管线里的一个渲染节点」vs「agency 的端到端生产工具」、"从内容交付走向效果交付"、"创意在我，执行在 AI"、"算法利润"。
 6. **数字精确且带口径**：720p/5s 归一、$0.73/条、日均 X 条/天、MoM +54%、渗透率 X%。每个大数字后面跟"怎么测的"。
+7. **研究过程感可以保留**。允许写"先按 X% 粗估""这个数还要和源表对齐""暂不把 paid media 算进去""Q3 需要用真实转化回收一次"。这类边界比完美口号更像真人汇报。
+
+### 3.1 句子级去 AI 味动作
+
+命中 AI 味时，不要只删词，要把句子改成可验证的业务判断：
+
+- **抽象名词 → 具体对象**：不要只写"能力建设 / 业务赋能 / 生态协同"，改成"哪个客户、哪个流程、哪个模型、哪个指标"。
+- **形容词 → 数字口径**：不要写"显著提升 / 大幅降低"，改成"CTR +X%、成本降到 $X/条、日均 X 条、渗透率 X%"。
+- **宏大判断 → 假设链**：不要写"市场空间巨大"，改成"TAM = 客户数 × 使用频次 × 单价，先按保守渗透率 X% 算"。
+- **闭环叙事 → 边界条件**：写清"当前能做什么 / 暂不做什么 / 依赖什么前提"，不要用"端到端闭环"糊过去。
+- **顺滑连接词 → 直接推进**：少用"首先/其次/此外/最终/综上"。每段只保留一个主判断，下一句接数字、原因或动作。
+
+### 3.2 Before / After 参考
+
+**中文**
+
+AI 味：
+> 该方案可以赋能客户构建从内容生产到投放优化的全链路闭环，持续释放业务价值。
+
+Bojie 味：
+> 这件事先不要写成"全链路"。当前能打的是 <u>高频素材生产</u>：先把主图、短视频、variant 三类素材的单条成本和产能算清楚；投放优化是否纳入，取决于客户有没有稳定的反馈数据。
+
+AI 味：
+> 随着市场需求持续增长，该赛道已经进入关键窗口期。
+
+Bojie 味：
+> 需求不是泛增长，主要来自两类预算迁移：一是原外包制作费，二是原广告平台内置工具预算。先按 10 家头部客户、5% 渗透率估，26 年可看 $XM；这个数还要用客户外采量回收一次。
+
+**English**
+
+AI-flavored:
+> The solution empowers brands to unlock a seamless end-to-end workflow from ideation to execution.
+
+Bojie-style:
+> Do not call this end-to-end yet. The first wedge is high-frequency asset production: image variants, short clips, and localized copy. Media optimization is out of scope until the customer can send stable feedback data.
+
+AI-flavored:
+> This presents a unique opportunity to transform the industry landscape.
+
+Bojie-style:
+> The opportunity is narrower and more measurable: replace the repeatable production spend first. If 20 target accounts move 5% of external creative spend onto the workflow, the near-term revenue pool is roughly $XM.
 
 ---
 
@@ -69,6 +113,16 @@ description: "Bojie 本人的行业方案 / 专项汇报写作风格指南（别
 - **探索**：当前定义/TAM 不清晰但想象空间大，保持小投入探索
 - **观察**：长期与近期都不高，持续观察市场变量
 门槛数字要写明，让管理层一眼看懂"为什么放这个象限"。
+
+### 4.4 段落节奏
+
+优先用这三种节奏，避免宣传稿式铺垫：
+
+1. **判断 → 数字 → 口径 → 下一步**
+2. **现象 → 为什么重要 → 我们的位置**
+3. **客户/场景 → 当前卡点 → 可切入点**
+
+避免："行业背景 → 趋势判断 → 价值升华 → 总结展望"。这套节奏太像通用白皮书。
 
 ---
 
@@ -140,6 +194,8 @@ description: "Bojie 本人的行业方案 / 专项汇报写作风格指南（别
 - 已在 §二 / §三 覆盖：去口号、去情绪 emoji、下划线标数字、判断敢下、hedge 保留。
 - 中英术语自然混排（DRR/TAM/variant/GMV…），**不要**把所有英文硬翻成中文（"漏斗"可以，但"渗透率""归因"别翻成生造词）。
 - 句子短、断句利落，少用"首先/其次/此外/综上所述"这种连接词套壳。
+- **中文高危词默认删除**：赋能、助力、打造、构建、沉淀、抓手、底座、体系化、全链路、全场景、深度融合、持续深化、价值释放、降本增效、提质增效、业务增长新引擎、打开想象空间、形成飞轮。
+- 这些词不是绝对禁用，但只有在后面能接具体对象、口径数字或明确 owner 时才保留。例如不要写"打造增长飞轮"，改成"用复购率、素材产能、获客成本三项指标看是否形成正循环"。
 
 ### 8.2 English reports — extra AI-tell checklist
 英文里最暴露 AI 的，是用词和句式套路。**英文报告额外删除：**
@@ -148,6 +204,7 @@ description: "Bojie 本人的行业方案 / 专项汇报写作风格指南（别
 - ❌ **Triadic rhythm tic**: 凡事三个并列形容词（"fast, scalable, and reliable"）——AI 的招牌节奏，砍成一个准确的词。
 - ❌ **Em-dash overuse** 和每段都 bold 一个 lead-in。
 - ❌ **Conclusion bloat**: *In conclusion / Overall / To summarize* 开头的收尾段。
+- ❌ **AI sentence frames**: *As brands increasingly look to...*, *This presents a unique opportunity to...*, *By leveraging X...*, *Not only does X..., but it also...*, *From ideation to execution...*, *a comprehensive suite of capabilities...*.
 - ✅ **DO**: 短句、主动语态、具体动词、数字带口径；判断直接下（"Paid media is out of scope — platforms self-produce 88–96%"）；保留 analyst hedge（"call it ~10% long-term", "aggressively, 40%→60%"）；术语全篇一致。
 - ✅ **强调方式**：英文里同样优先 `<u>` 标关键数字、`<b>` 标判断句；引号包装 memorable framing（"a render node in the pipeline" vs "an end-to-end production tool"）。
 
@@ -164,3 +221,7 @@ description: "Bojie 本人的行业方案 / 专项汇报写作风格指南（别
 4. 有没有自制 SVG 假图？→ 换真实素材或留空
 5. 方案有没有点名模型分工、给 demo？→ 补
 6. 语气像不像"分析师在摊牌推理"而非"市场在宣讲"？→ 调
+7. 每个大判断有没有数字、客户、模型、cite 或显式假设之一？→ 没有就补证据或降级为待验证
+8. 有没有"闭环 / 全链路 / 赋能 / seamless / unlock"这类抽象词？→ 换成对象、边界和动作
+9. 段落是不是太整齐、太满、太像标准答案？→ 加入口径、例外、待确认项
+10. 如果删掉所有形容词，核心判断还成立吗？→ 不成立就重写
