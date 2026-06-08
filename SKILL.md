@@ -1,12 +1,15 @@
 ---
 name: bojie-report-style
 version: 1.0.0
-description: "Bojie 本人的行业方案 / 专项汇报写作风格指南（别名「白皮笔法」）。当为 Bojie 撰写或改写面向管理层/leader 的行业方案、赛道汇报、专项总结、市场空间分析、客户/标杆进展、解决方案文档（多为飞书 Docx）时使用，确保文风是分析师口吻、去 AI 味、判断敢下、测算摊开。触发词：写汇报、行业方案、赛道总结、专项汇报、市场空间、给管理层的report、帮我把这份写得不那么 AI 味、按我的风格写。"
+description: "Bojie 本人的行业方案 / 专项汇报写作风格指南（别名「白皮笔法」），中英双语通用。当为 Bojie 撰写或改写面向管理层/leader 的行业方案、赛道汇报、专项总结、市场空间分析、客户/标杆进展、解决方案文档（多为飞书 Docx，中文或英文皆可）时使用，确保文风是分析师口吻、去 AI 味、判断敢下、测算摊开。Personal report-writing style guide for Bojie — works for BOTH Chinese and English industry/strategy/leadership reports. 触发词：写汇报、行业方案、赛道总结、专项汇报、市场空间、给管理层的report、帮我把这份写得不那么 AI 味、按我的风格写、write the English report in my style、de-AI-flavor this。"
 ---
 
 # 白皮笔法 — Bojie 的行业汇报写作风格
 
 为 Bojie（孙博杰 / Bojie Sun，BytePlus SA）撰写或改写面向公司 leader / 管理层的**行业方案、赛道汇报、专项总结、市场空间分析、解决方案文档**时，遵循本指南。目标只有一个：**写出来像 Bojie 自己写的——分析师口吻、信息密度高、判断敢下、没有 AI 味。**
+
+> **中英双语 / Bilingual.** 本指南同时适用于**中文**和**英文**报告（Bojie 的解决方案文档常是英文，专项汇报常是中文）。§一 ~ §七 的方法论、结构、卖点框架两种语言通用；语言专属的 AI 味自查见 **§八 语言专属规则**。改写时先判断目标语言，再叠加对应 §八 的清单。
+> This guide applies to BOTH Chinese and English reports. The methodology, structure and value-prop frames in §1–§7 are language-agnostic; language-specific "AI-flavor" tells live in **§8**.
 
 > 本指南从两份 Bojie 亲笔文档提炼，写作时如能访问应优先 fetch 它们作为风格基准：
 > - 专项汇报范本（扁平、克制）：`O8GYwGBr9iYba8kvAIKcpuYhnbg`《广告 Ads 行业赛道 - 专项汇报阶段性总结 v0.5》
@@ -133,7 +136,31 @@ description: "Bojie 本人的行业方案 / 专项汇报写作风格指南（别
 
 ---
 
-## 八、落笔前 10 秒检查
+## 八、语言专属规则（中文 / English）
+
+方法论通用，但**两种语言的 AI 味长得不一样**。先定目标语言，再叠加对应清单。
+
+### 8.1 中文报告
+- 已在 §二 / §三 覆盖：去口号、去情绪 emoji、下划线标数字、判断敢下、hedge 保留。
+- 中英术语自然混排（DRR/TAM/variant/GMV…），**不要**把所有英文硬翻成中文（"漏斗"可以，但"渗透率""归因"别翻成生造词）。
+- 句子短、断句利落，少用"首先/其次/此外/综上所述"这种连接词套壳。
+
+### 8.2 English reports — extra AI-tell checklist
+英文里最暴露 AI 的，是用词和句式套路。**英文报告额外删除：**
+- ❌ **LLM filler verbs/adjectives**: *delve, leverage, robust, seamless, cutting-edge, game-changer, unlock, harness, supercharge, elevate, empower, streamline, navigate the landscape, in today's fast-paced world, it's worth noting, it's important to note*.
+- ❌ **Hedging-as-padding**: *arguably, fundamentally, essentially, ultimately* 当连接词刷存在感。
+- ❌ **Triadic rhythm tic**: 凡事三个并列形容词（"fast, scalable, and reliable"）——AI 的招牌节奏，砍成一个准确的词。
+- ❌ **Em-dash overuse** 和每段都 bold 一个 lead-in。
+- ❌ **Conclusion bloat**: *In conclusion / Overall / To summarize* 开头的收尾段。
+- ✅ **DO**: 短句、主动语态、具体动词、数字带口径；判断直接下（"Paid media is out of scope — platforms self-produce 88–96%"）；保留 analyst hedge（"call it ~10% long-term", "aggressively, 40%→60%"）；术语全篇一致。
+- ✅ **强调方式**：英文里同样优先 `<u>` 标关键数字、`<b>` 标判断句；引号包装 memorable framing（"a render node in the pipeline" vs "an end-to-end production tool"）。
+
+### 8.3 中英对照版文档
+若一份文档要中英双语（如对客 pitch + 内部汇报），**先写定一种语言定稿，再翻另一种**——不要逐句直译，按目标语言的 §8.1/§8.2 重写句式，保证两版各自读起来都像母语分析师写的、数字与 cite 完全一致。
+
+---
+
+## 九、落笔前 10 秒检查
 
 1. 有没有情绪 emoji / 口号？→ 删
 2. 关键数字有没有带测算口径？→ 补
