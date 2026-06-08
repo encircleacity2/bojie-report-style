@@ -53,7 +53,7 @@ bojie-report-style/
 
 This skill is opinionated toward one person and one domain (BytePlus / ads & e-commerce industry reports). To adapt it:
 
-1. Swap the two **reference docs** in `SKILL.md` for your own best hand-written examples.
+1. Feed the agent your own best hand-written samples as style anchors (or paste excerpts) before drafting.
 2. Edit the **AI-flavor checklists** (both the CN list and the EN list in §8) to match the tells *you* care about.
 3. Adjust the **model-division** and **three-pillar value prop** lists to your products.
 4. Keep the meta-pattern: *diagnose your own voice from real samples → encode the dos/don'ts → enforce a pre-publish checklist.*
@@ -112,7 +112,7 @@ bojie-report-style/
 
 这个 skill 高度针对一个人和一个领域（BytePlus / 广告与电商行业汇报）。要改成你自己的：
 
-1. 把 `SKILL.md` 里的两份**范本文档**换成你自己最好的亲笔样稿。
+1. 起草前，把你自己最好的亲笔样稿喂给 agent 作为风格锚点（或贴关键段落）。
 2. 改 §8 里的**两份 AI 味清单**（中文那份 + 英文那份），换成*你*在意的痕迹。
 3. 调整**模型分工**和**三支柱卖点**清单，对齐你自己的产品。
 4. 保留这个元方法：*从真实样稿里诊断自己的文风 → 固化 do/don't → 用落笔前清单强制执行。*

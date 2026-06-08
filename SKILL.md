@@ -11,10 +11,6 @@ description: "Bojie 本人的行业方案 / 专项汇报写作风格指南（别
 > **中英双语 / Bilingual.** 本指南同时适用于**中文**和**英文**报告（Bojie 的解决方案文档常是英文，专项汇报常是中文）。§一 ~ §七 的方法论、结构、卖点框架两种语言通用；语言专属的 AI 味自查见 **§八 语言专属规则**。改写时先判断目标语言，再叠加对应 §八 的清单。
 > This guide applies to BOTH Chinese and English reports. The methodology, structure and value-prop frames in §1–§7 are language-agnostic; language-specific "AI-flavor" tells live in **§8**.
 
-> 本指南从两份 Bojie 亲笔文档提炼，写作时如能访问应优先 fetch 它们作为风格基准：
-> - 专项汇报范本（扁平、克制）：`O8GYwGBr9iYba8kvAIKcpuYhnbg`《广告 Ads 行业赛道 - 专项汇报阶段性总结 v0.5》
-> - 成品方案范本（场景化、给 demo）：`ObXOwcqMgiOvr9kXtTlcaQhfnLc`《海外电商行业解决方案-BytePlus》第 2 章「行业场景及解决方案」
-
 ---
 
 ## 一、最高准则（一句话）
